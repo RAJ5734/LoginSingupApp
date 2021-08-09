@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActiveActivity">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:padding="4dp"
+        tools:listitem="@layout/product_list" />
+
+<!--    &lt;!&ndash; A CardView that contains a TextView &ndash;&gt;-->
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/card_view"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        app:cardCornerRadius="4dp"-->
+<!--        android:padding="10dp">-->
+
+<!--     <ImageView-->
+<!--         android:id="@+id/book_Img"-->
+<!--         android:layout_width="match_parent"-->
+<!--         android:layout_height="match_parent"-->
+<!--         android:src="@drawable/book"-->
+<!--         android:autofillHints="Books"-->
+<!--         android:padding="10dp"/>-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:text="Books"-->
+<!--            android:textSize="30sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColorHighlight="@color/black"-->
+<!--            android:padding="10dp"-->
+<!--            />-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/card_view2"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        app:cardCornerRadius="4dp"-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_toRightOf="@+id/card_view">-->
+<!--        <ImageView-->
+<!--            android:id="@+id/music_Img"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:src="@drawable/entertenment"-->
+<!--            android:padding="10dp"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/info_text2"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:text="Entertainment"-->
+<!--            android:textSize="25sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColorHighlight="@color/black"-->
+<!--            android:padding="10dp"/>-->
+
+<!--        <ScrollView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical" />-->
+<!--        </ScrollView>-->
+<!--    </androidx.cardview.widget.CardView>-->
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/card_view3"-->
+<!--        android:layout_width="200dp"-->
+<!--        android:layout_height="200dp"-->
+<!--        app:cardCornerRadius="4dp"-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_below="@+id/card_view">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:src="@drawable/applogo2"-->
+<!--            android:padding="10dp"/>-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/info_text3"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:textStyle="bold"-->
+<!--            android:text="Apps"-->
+<!--            android:textSize="30sp"-->
+<!--            android:textColorHighlight="@color/black"/>-->
+
+<!--    </androidx.cardview.widget.CardView>-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/email_TV"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/card_view"-->
+<!--        android:layout_marginTop="316dp"-->
+<!--        android:hint="Login susefully done"-->
+<!--        android:text="Email"-->
+<!--        android:textSize="18sp" />-->
+
+    <Button
+        android:id="@+id/lougout_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="674dp"
+        android:hint="Logout"
+        android:padding="10dp"
+        tools:ignore="MissingConstraints" />
+    <!--        android:layout_below="@+id/card_view3" />-->
+
+</RelativeLayout>
